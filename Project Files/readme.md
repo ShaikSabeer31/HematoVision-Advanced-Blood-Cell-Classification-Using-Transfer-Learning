@@ -1,5 +1,17 @@
 project executable file
 
+# 📁 Project Files
+
+This folder contains all essential files required to run and test the HematoVision project:
+
+- `app.py` – Flask web application for classifying blood cell images.
+- `train_model.py` – Script to train the CNN model using transfer learning (VGG16).
+- `BloodCellClassifier.h5` – The trained model file used for prediction.
+- `.jpg` images – Sample blood cell images for testing.
+- `requirements.txt` – List of Python libraries to install before running the app.
+
+Run `app.py` to launch the web interface.
+
 # HematoVision: Advanced Blood Cell Classification Using Transfer Learning
 
 ## 🧠 Overview
